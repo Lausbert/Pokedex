@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8D4DAC6F1DB4DC49001ABC47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DAC6E1DB4DC49001ABC47 /* AppDelegate.swift */; };
 		8D4DAC711DB4DC49001ABC47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DAC701DB4DC49001ABC47 /* ViewController.swift */; };
-		8D4DAC741DB4DC49001ABC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC721DB4DC49001ABC47 /* Main.storyboard */; };
 		8D4DAC761DB4DC49001ABC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC751DB4DC49001ABC47 /* Assets.xcassets */; };
 		8D4DAC791DB4DC49001ABC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC771DB4DC49001ABC47 /* LaunchScreen.storyboard */; };
 		8D4DAC811DB4E2C6001ABC47 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC801DB4E2C6001ABC47 /* pokemon.csv */; };
@@ -18,13 +17,14 @@
 		8D4DAC891DB50854001ABC47 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DAC881DB50854001ABC47 /* csv.swift */; };
 		8D4DAC8E1DB51F33001ABC47 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC8D1DB51F33001ABC47 /* Pokemon.ttf */; };
 		8D4DAC901DB52170001ABC47 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC8F1DB52170001ABC47 /* music.mp3 */; };
+		8D4DAC921DB53739001ABC47 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4DAC911DB53739001ABC47 /* PokemonDetailVC.swift */; };
+		8D4DAC951DB53C38001ABC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4DAC931DB53C38001ABC47 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D4DAC6B1DB4DC49001ABC47 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4DAC6E1DB4DC49001ABC47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D4DAC701DB4DC49001ABC47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D4DAC731DB4DC49001ABC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D4DAC751DB4DC49001ABC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4DAC781DB4DC49001ABC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4DAC7A1DB4DC49001ABC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		8D4DAC881DB50854001ABC47 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		8D4DAC8D1DB51F33001ABC47 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
 		8D4DAC8F1DB52170001ABC47 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		8D4DAC911DB53739001ABC47 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		8D4DAC941DB53C38001ABC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +74,8 @@
 				8D4DAC8A1DB50865001ABC47 /* Utilities */,
 				8D4DAC8C1DB5087F001ABC47 /* Ressources */,
 				8D4DAC6E1DB4DC49001ABC47 /* AppDelegate.swift */,
-				8D4DAC721DB4DC49001ABC47 /* Main.storyboard */,
 				8D4DAC751DB4DC49001ABC47 /* Assets.xcassets */,
+				8D4DAC931DB53C38001ABC47 /* Main.storyboard */,
 				8D4DAC771DB4DC49001ABC47 /* LaunchScreen.storyboard */,
 				8D4DAC7A1DB4DC49001ABC47 /* Info.plist */,
 			);
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4DAC701DB4DC49001ABC47 /* ViewController.swift */,
+				8D4DAC911DB53739001ABC47 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -185,9 +188,9 @@
 				8D4DAC791DB4DC49001ABC47 /* LaunchScreen.storyboard in Resources */,
 				8D4DAC8E1DB51F33001ABC47 /* Pokemon.ttf in Resources */,
 				8D4DAC901DB52170001ABC47 /* music.mp3 in Resources */,
+				8D4DAC951DB53C38001ABC47 /* Main.storyboard in Resources */,
 				8D4DAC761DB4DC49001ABC47 /* Assets.xcassets in Resources */,
 				8D4DAC811DB4E2C6001ABC47 /* pokemon.csv in Resources */,
-				8D4DAC741DB4DC49001ABC47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +204,7 @@
 				8D4DAC871DB4EED3001ABC47 /* PokeCell.swift in Sources */,
 				8D4DAC711DB4DC49001ABC47 /* ViewController.swift in Sources */,
 				8D4DAC6F1DB4DC49001ABC47 /* AppDelegate.swift in Sources */,
+				8D4DAC921DB53739001ABC47 /* PokemonDetailVC.swift in Sources */,
 				8D4DAC841DB4E40D001ABC47 /* Pokemon.swift in Sources */,
 				8D4DAC891DB50854001ABC47 /* csv.swift in Sources */,
 			);
@@ -209,20 +213,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D4DAC721DB4DC49001ABC47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D4DAC731DB4DC49001ABC47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D4DAC771DB4DC49001ABC47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8D4DAC781DB4DC49001ABC47 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8D4DAC931DB53C38001ABC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D4DAC941DB53C38001ABC47 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
