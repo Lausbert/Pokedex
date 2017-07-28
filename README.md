@@ -1,11 +1,10 @@
-# WeatherApp
+***The programming of this app was included in a <a href="http://pokeapi.co">tutorial</a>.***
 
-Have a look at my small WeatherApp with hardcoded location, so it's definitly pretty useful ... not :) Anyway it was a nice testing playground for Alamofire and parsing JSON data. Many many thanks to <a href="https://www.epicpxls.com/items/weather-app-ui">EpicPxls</a> for the nice artwork and to <a href="http://openweathermap.org">OpenWeatherMap</a> for weather data.
+# Pokédex
+
+Have a look at my Pokedex and a detailed view of the worlds best Pokémon: Psyduck! :) Things I have used and see when programming this App: Alamofire, CollectionView, StackView and Searchbar. Many many thanks to <a href="http://pokeapi.co">PokéApi</a> 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Lausbert/WeatherApp/master/pictures/Simulator%20Screen%20Shot%2014.02.2017%2C%2017.57.48.png" width="150">
-<img src="https://github.com/Lausbert/WeatherApp/blob/master/pictures/Simulator%20Screen%20Shot%2014.02.2017%2C%2017.48.26.png" width="150">
-  <img src="https://raw.githubusercontent.com/Lausbert/WeatherApp/master/pictures/Simulator%20Screen%20Shot%2014.02.2017%2C%2017.47.46.png" width="150">
-<img src="https://raw.githubusercontent.com/Lausbert/WeatherApp/master/pictures/Simulator%20Screen%20Shot%2014.02.2017%2C%2018.02.25.png" width="150">
-<img src="https://raw.githubusercontent.com/Lausbert/WeatherApp/master/pictures/Simulator%20Screen%20Shot%2014.02.2017%2C%2018.05.46.png" width="150">
+<img src="https://github.com/Lausbert/Pokedex/blob/master/Pictures/Simulator%20Screen%20Shot%2028.07.2017%2C%2011.25.01.png" width="250">
+<img src="https://github.com/Lausbert/Pokedex/blob/master/Pictures/Simulator%20Screen%20Shot%2028.07.2017%2C%2011.24.56.png" width="250">
 </p>
